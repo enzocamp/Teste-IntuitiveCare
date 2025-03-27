@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "133b6520-d77f-4ee3-a972-221c92b20dac",
+		"name": "Teste 4 - Busca de Operadoras",
+		"description": "Esta requisição realiza uma busca textual por operadoras de saúde, retornando os registros mais relevantes a partir do nome digitado.\n\n**Exemplo:**  \n`GET /search?q=amil`\n\n**Retorna:**  \nLista de operadoras no formato JSON.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15533635"
+	},
+	"item": [
+		{
+			"name": "Buscar operadoras por nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?q=amil",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "amil"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "1"
+		},
+		{
+			"key": "base_url",
+			"value": "https://postman-rest-api-learner.glitch.me/"
+		}
+	]
+}
