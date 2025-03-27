@@ -1,0 +1,26 @@
+# Compilação Java
+/bin/
+/target/
+/out/
+
+# IDEs
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+*.suo
+*.DS_Store
+*.vscode/
+.project
+.classpath
+.settings/
+.idea/
+
+# Bibliotecas
+*.jar
+libs/
+
+# Arquivos gerados
+*.zip
+output/
